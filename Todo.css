@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(to right, rgb(50, 56, 71),rgb(46, 90, 83));
+    display: flex;
+}
+img{
+    width: 20px;
+}
+body .container{
+    width: 20%;
+    border: 2px groove rgb(228, 218, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    position: absolute;
+    right: 50%;
+    top: 25%;
+    background-image: linear-gradient(to right,rgb(218, 145, 72),rgb(97, 19, 107));
+}
+.input-task .input-text{
+    width: 70%;
+    height: 30px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    color: rgb(255, 4, 4);
+}
+.input-task .add{
+    width: 20%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 35px;
+    border: 3px solid black;
+    background-color: rgb(5, 5, 40);
+    color: aliceblue;
+    border-radius: 25px;
+}
+.input-task{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+.task{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2px;
+}
+.task img{
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+    padding: 2px;
+}
+
+.task p {
+    font-size: 13px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 0px 0px white;
+    color: aliceblue;
+    overflow-x: hidden;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+}
+.read{
+    text-decoration: line-through;
+    color: aqua;
+    font-weight: bolder;
+}
+#note{
+    width: 50px; 
+}
+section{
+    display: flex;
+    gap: 3px;
+}
