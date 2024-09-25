@@ -7,6 +7,9 @@ img{
 }
 body .container{
     width: 20%;
+    height: 400px;
+    overflow-y: hidden;
+    scrollbar-color: red;
     border: 2px groove rgb(228, 218, 218);
     display: flex;
     flex-direction: column;
@@ -18,6 +21,13 @@ body .container{
     right: 50%;
     top: 25%;
     background-image: linear-gradient(to right,rgb(218, 145, 72),rgb(97, 19, 107));
+}
+.container2{
+    height: 200px;
+    margin-bottom: 5px;
+    overflow-y: auto;
+    width: 85%;
+    scrollbar-width: none;
 }
 .input-task .input-text{
     width: 70%;
@@ -40,6 +50,8 @@ body .container{
     display: flex;
     gap: 2px;
     justify-content: center;
+    position: absolute;
+    bottom: 0px;
 }
 .task{
     width: 80%;
@@ -77,4 +89,6 @@ body .container{
 section{
     display: flex;
     gap: 3px;
+    position: absolute;
+    top: 0px;
 }
