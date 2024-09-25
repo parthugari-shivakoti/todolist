@@ -1,6 +1,6 @@
 
 function add(){
-    let todolist = document.querySelector('.container');
+    let todolist = document.querySelector('.container2');
     let x = document.createElement('p');
     var text = document.querySelector('.input-text').value;
     if(text == ''){
